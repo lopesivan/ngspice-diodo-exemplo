@@ -1,0 +1,10 @@
+* exemplo de diodo
+
+.include spice_models/D1N4148.mod
+
+vin 1 0 2.0
+r1  1 2 5k
+d1  2 0 D1N4148
+.dc vin 0.0 1.0 .1
+.plot dc v(1)
+.end

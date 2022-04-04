@@ -1,18 +1,23 @@
-Lab1, Circuito 1
+Lab1, RL = 2
 
-Vin n1 0 DC 5V
+V1 1 0 DC 20
 
-R1  n1 n2 1k
-R2  n2 0  10k
+R1 1 2 8
+R2 2 3 6
+R3 2 0 7
+RL 3 0 2
 
-* Vin varia de 0 até 5 ao passo de 1
-* for (Vin = 0; Vin <= 5; Vin++){}
-* => loop executado 6 vezes (5 - 0 + 1 = 6).
-.dc Vin 0V 5V 1V
+.op
 
 .control
 run
-plot vdb(n2)
+set tensao = $&v(3)              ; definindo variável com tensão
+set carga  = $&@rl[resistance]   ; definindo variável com resistência
+let x      = '-$&i(v1)'          ; calcular a expressão
+let y      = 'tensao/carga'      ; calculando a expressão
+let diference_xy = 'x-y'         ; calculando a expressão
+
+echo "x=$&x, y=$&y, x-y=$&diference_xy"
 .endc
 
 .end

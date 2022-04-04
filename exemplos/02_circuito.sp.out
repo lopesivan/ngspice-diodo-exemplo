@@ -2,7 +2,7 @@
 No compatibility mode selected!
 
 
-Circuit: lab1, circuito 1
+Circuit: lab1, circuito 2
 
 Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
 
@@ -75,11 +75,11 @@ Total analysis time (seconds) = 0
 Total elapsed time (seconds) = 0.003 
 
 Total DRAM available = 19897.859 MB.
-DRAM currently available = 2880.578 MB.
+DRAM currently available = 2886.738 MB.
 Maximum ngspice program size =   95.797 MB.
-Current ngspice program size =   11.711 MB.
+Current ngspice program size =   11.922 MB.
 
-Shared ngspice pages =   10.227 MB.
+Shared ngspice pages =   10.441 MB.
 Text (code) pages =    6.668 MB.
 Stack = 0 bytes.
 Library pages =    1.980 MB.

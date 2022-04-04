@@ -1,0 +1,11 @@
+[file-run]
+command=ngspice -b "$(VIM_FILENAME)"
+cwd=$(VIM_FILEDIR)
+#output=quickfix
+output=terminal
+
+
+[file-build]
+command=ngspice -b "$(VIM_FILENAME)" > "$(VIM_FILENAME)".out
+cwd=$(VIM_FILEDIR)
+output=terminal

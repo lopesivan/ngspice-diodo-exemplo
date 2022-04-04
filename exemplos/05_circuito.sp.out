@@ -1,0 +1,103 @@
+
+No compatibility mode selected!
+
+
+Circuit: lab1, rl = 2
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+x=1.70455, y=0.795455, x-y=0.909095
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+x=1.40167, y=0.146444, x-y=1.25523
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+	Node                                  Voltage
+	----                                  -------
+	----	-------
+	V(3)                             7.907950e+00
+	V(2)                             8.786611e+00
+	V(1)                             2.000000e+01
+
+	Source	Current
+	------	-------
+
+	v1#branch                        -1.40167e+00
+
+ Resistor models (Simple linear resistor)
+      model                     R
+
+        rsh                     0
+     narrow                     0
+      short                     0
+        tc1                     0
+        tc2                     0
+        tce                     0
+       defw                 1e-05
+          l                 1e-05
+         kf                     0
+         af                     0
+          r                     0
+     bv_max                 1e+99
+         lf                     1
+         wf                     1
+         ef                     1
+
+ Resistor: Simple linear resistor
+     device                    rl                    r3                    r2
+      model                     R                     R                     R
+ resistance                    54                     7                     6
+         ac                    54                     7                     6
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i              0.146444               1.25523              0.146444
+          p               1.15807               11.0292              0.128674
+
+ Resistor: Simple linear resistor
+     device                    r1
+      model                     R
+ resistance                     8
+         ac                     8
+      dtemp                     0
+     bv_max                 1e+99
+      noisy                     1
+          i               1.40167
+          p               15.7175
+
+ Vsource: Independent voltage source
+     device                    v1
+         dc                    20
+      acmag                     0
+      pulse         -
+        sin         -
+        exp         -
+        pwl         -
+       sffm         -
+         am         -
+    trnoise         -
+   trrandom         -
+          i              -1.40167
+          p              -28.0335
+
+
+Total analysis time (seconds) = 0
+
+Total elapsed time (seconds) = 0.004 
+
+Total DRAM available = 19897.859 MB.
+DRAM currently available =  622.344 MB.
+Maximum ngspice program size =   95.793 MB.
+Current ngspice program size =   11.914 MB.
+
+Shared ngspice pages =   10.434 MB.
+Text (code) pages =    6.668 MB.
+Stack = 0 bytes.
+Library pages =    1.977 MB.
+

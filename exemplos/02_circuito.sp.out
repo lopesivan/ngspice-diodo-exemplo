@@ -1,0 +1,86 @@
+
+No compatibility mode selected!
+
+
+Circuit: lab1, circuito 1
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+Solução: 0.909091
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+	Node                                  Voltage
+	----                                  -------
+	----	-------
+	n2                               9.090909e-01
+	n1                               1.000000e+00
+
+	Source	Current
+	------	-------
+
+	vin#branch                       -9.09091e-05
+
+ Resistor models (Simple linear resistor)
+      model                     R
+
+        rsh                     0
+     narrow                     0
+      short                     0
+        tc1                     0
+        tc2                     0
+        tce                     0
+       defw                 1e-05
+          l                 1e-05
+         kf                     0
+         af                     0
+          r                     0
+     bv_max                 1e+99
+         lf                     1
+         wf                     1
+         ef                     1
+
+ Resistor: Simple linear resistor
+     device                    r2                    r1
+      model                     R                     R
+ resistance                 10000                  1000
+         ac                 10000                  1000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           9.09091e-05           9.09091e-05
+          p           8.26446e-05           8.26446e-06
+
+ Vsource: Independent voltage source
+     device                   vin
+         dc                     1
+      acmag                     0
+      pulse         -
+        sin         -
+        exp         -
+        pwl         -
+       sffm         -
+         am         -
+    trnoise         -
+   trrandom         -
+          i          -9.09091e-05
+          p          -9.09091e-05
+
+
+Total analysis time (seconds) = 0
+
+Total elapsed time (seconds) = 0.003 
+
+Total DRAM available = 19897.859 MB.
+DRAM currently available = 2880.578 MB.
+Maximum ngspice program size =   95.797 MB.
+Current ngspice program size =   11.711 MB.
+
+Shared ngspice pages =   10.227 MB.
+Text (code) pages =    6.668 MB.
+Stack = 0 bytes.
+Library pages =    1.980 MB.
+

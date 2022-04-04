@@ -8,7 +8,7 @@ Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
 
 
 No. of Data Rows : 1
-x=1.70455 y=0.795455
+x=1.70455, y=0.795455, x-y=0.909095
 Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
 
 
@@ -87,12 +87,12 @@ Total analysis time (seconds) = 0
 Total elapsed time (seconds) = 0.004 
 
 Total DRAM available = 19897.859 MB.
-DRAM currently available =  613.508 MB.
-Maximum ngspice program size =   95.793 MB.
-Current ngspice program size =   11.883 MB.
+DRAM currently available =  553.941 MB.
+Maximum ngspice program size =   95.789 MB.
+Current ngspice program size =   11.891 MB.
 
-Shared ngspice pages =   10.398 MB.
+Shared ngspice pages =   10.410 MB.
 Text (code) pages =    6.668 MB.
 Stack = 0 bytes.
-Library pages =    1.977 MB.
+Library pages =    1.973 MB.
 

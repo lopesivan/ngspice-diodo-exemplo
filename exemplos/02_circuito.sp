@@ -1,4 +1,4 @@
-Lab1, Circuito 1
+Lab1, Circuito 2
 
 Vin n1 0 DC 1V
 

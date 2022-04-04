@@ -11,9 +11,10 @@ RL 3 0 2
 
 .control
 run
-set tensao = $&v(3)              ; definindo variável com tensão
-set carga  = $&@rl[resistance]   ; definindo variável com resistência
-let x      = '-$&i(v1)'          ; calcular a expressão
+let tensao = $&v(3)              ; definindo variável com tensão
+let carga  = $&@rl[resistance]   ; definindo variável com resistência
+
+let x      = '-$&i(v1)'          ; aspas simples para calcular a expressão
 let y      = 'tensao/carga'      ; calculando a expressão
 let diference_xy = 'x-y'         ; calculando a expressão
 
